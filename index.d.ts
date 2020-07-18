@@ -936,16 +936,7 @@ declare module "native-base" {
      * Replacing Component: React Native <View>
      */
 	export class Header extends React.Component<NativeBase.Header, any> { }
-	/**
-     * NativeBase.Content
-     *
-     * This is a NativeBase component which renders as body element of your screen.
-     * Each screen can have only one <Content> component and can be defined anywhere within the Container.
-     * Content takes in the whole collection of React Native and NativeBase components.
-     * Content provides you with stylesheet.
-     * User can add custom styles while defining <Content> within their app.
-     * Replacing Component: React Native <ScrollView>
-     */
+	
 	/**
      * NativeBase.Left
      */
@@ -958,7 +949,16 @@ declare module "native-base" {
      * NativeBase.Body
      */
 	export class Body extends React.Component<NativeBase.Body, any> { }
-
+	/**
+     * NativeBase.Content
+     *
+     * This is a NativeBase component which renders as body element of your screen.
+     * Each screen can have only one <Content> component and can be defined anywhere within the Container.
+     * Content takes in the whole collection of React Native and NativeBase components.
+     * Content provides you with stylesheet.
+     * User can add custom styles while defining <Content> within their app.
+     * Replacing Component: React Native <ScrollView>
+     */
 	export class Content extends React.Component<NativeBase.Content, any> { }
 	/**
      * NativeBase.FooterTab
